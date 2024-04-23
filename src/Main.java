@@ -3,7 +3,7 @@ public class Main {
 
         int account = 100;            // Счет клиента
         int deposit = 1200;         // Сумма пополнения
-        int bonus = (deposit/100);  // Расчет бонусных рублей
+        int bonus = (deposit / 100);  // Расчет бонусных рублей
         int finalAccount = (account + deposit);  // Счет клиента после пополнения
 
         if (deposit < 1000) {
@@ -12,13 +12,5 @@ public class Main {
             System.out.println("Итоговый счет " + (finalAccount + bonus));
             System.out.println("Вы получили дополнительные бонусы " + bonus);
         }
-
-
-
-
-
-
-
-
     }
 }
